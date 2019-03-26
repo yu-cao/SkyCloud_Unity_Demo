@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Sky_DayControll_cloudSphere
+  m_Shader: {fileID: 4800000, guid: fd9bbfeaadd45c14698d0c3872ab3c6e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudMap:
+        m_Texture: {fileID: 2800000, guid: 0f5cc23c865cf8d45a37fae8586ee60e, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MieMap:
+        m_Texture: {fileID: 2800000, guid: 002549a30c45703438f894097c0b22dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RayleighMap:
+        m_Texture: {fileID: 2800000, guid: 61a6dfe4ddde4864ba60edeafce5ab70, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bias: 0.95
+    - _BumpScale: 1
+    - _CloudAmount: 0.57
+    - _CloudContrast: 1.45
+    - _CloudHeight: 0.7
+    - _CloudPower: 0.43
+    - _CloudRange: 5.11
+    - _CloudSpeed: 0.04
+    - _CloudThickness: 1.39
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HasCloud: 0
+    - _HasSun: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OnlyCloud: 0
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SunHaloIntensity: 0.36
+    - _SunIntensity: 1.25
+    - _SunScale: 8999.85
+    - _TransmitBase: 0.4238543
+    - _TransmitEdge: 1.5757961
+    - _TransmitExp: 130.06993
+    - _TransmitIntensity: 2.51
+    - _TransmitRange: 1.27
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _CloudColor: {r: 0.5320853, g: 0.53626966, b: 0.5655752, a: 1}
+    - _CloudDarkColor: {r: 0.6528326, g: 0.562164, b: 0.5940985, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NightSkyColBase: {r: 0.33720803, g: 0.42452276, b: 0.5955882, a: 1}
+    - _NightSkyColDelta: {r: 0.15187068, g: 0.2027182, b: 0.3897059, a: 0.36}
+    - _PartialMieInScattering: {r: 0.12608132, g: 0.31334567, b: 0.3897059, a: 1}
+    - _PartialRayleighInScattering: {r: 1, g: 0.2689655, b: 0, a: 1}

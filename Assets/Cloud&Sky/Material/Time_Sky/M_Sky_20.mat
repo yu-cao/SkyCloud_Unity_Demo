@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Sky_20
+  m_Shader: {fileID: 4800000, guid: d74a9338c3b167344a345bb1133cd65a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudMap:
+        m_Texture: {fileID: 2800000, guid: 0f5cc23c865cf8d45a37fae8586ee60e, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MieMap:
+        m_Texture: {fileID: 2800000, guid: a93b92c4d5f10814a9cf8a98082478f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MoonMap:
+        m_Texture: {fileID: 2800000, guid: 6b42cb785fdb03b44a45fd1e2b060e0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RayleighMap:
+        m_Texture: {fileID: 2800000, guid: 3a72dd2e1828f4e42a740bc83ad58a3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bias: 0.95
+    - _BumpScale: 1
+    - _CloudAmount: 0.62
+    - _CloudContrast: 1.09
+    - _CloudPower: 1
+    - _CloudRange: 4.93
+    - _CloudSpeed: 0.02
+    - _CloudThickness: 1.39
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HasCloud: 0
+    - _HasSun: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _MoonTex: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RotatorX: 1
+    - _RotatorY: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SunHaloIntensity: 0.485
+    - _SunIntensity: 2.42
+    - _SunScale: 9000
+    - _TransmitBase: 0.531
+    - _TransmitEdge: 1.77
+    - _TransmitExp: 131
+    - _TransmitIntensity: 2.51
+    - _TransmitRange: 1.61
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _CloudColor: {r: 0.53287196, g: 0.5370063, b: 0.5661765, a: 1}
+    - _CloudDarkColor: {r: 0.6544118, g: 0.5629866, b: 0.5951431, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NightSkyColBase: {r: 0.30709344, g: 0.47381517, b: 0.52205884, a: 0.663}
+    - _NightSkyColDelta: {r: 0.15246537, g: 0.19403554, b: 0.2205882, a: 0.209}
+    - _PartialMieInScattering: {r: 0.007893606, g: 0.012732681, b: 0.014705896, a: 1}
+    - _PartialRayleighInScattering: {r: 1, g: 0.35573018, b: 0.22794116, a: 0.697}
